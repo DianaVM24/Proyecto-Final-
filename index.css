@@ -1,0 +1,253 @@
+@import url(https://fonts.googleapis.com/css?family=Caveat:regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Archivo:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Archivo+Black:regular);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.titulo
+{
+    font-size: 2.5rem;
+    text-align: center;
+    padding-left: 42%;
+    font-family: "Caveat";
+    color: brown;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    position: relative;
+}
+.buscador{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+nav{
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(176, 145, 105);
+}
+a{
+    margin: 70px;
+    text-decoration: none;
+    color: white;
+}
+.contenedorImg{
+    background-image: url(Imagenes/portada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 55vh;
+}
+.texto1{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+.texto2{
+    padding-top: 1%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+.texto3{
+    padding-top: 1%;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.Recomendaciones{
+    padding-left: 4%;
+    font-weight: bold;
+    font-size: 1.7rem;
+    font-family: "Quicksand";
+    color: brown;
+}
+.Libros{
+    padding-left: 4%;
+    font-weight: bold;
+    font-size: 1.7rem;
+    font-family: "Quicksand";
+    color: brown;
+}
+.primeralinea{
+    padding-left: 6%;
+    padding-right: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.linea1primera1{
+    font-family:"IBM+Plex+Sans" ;
+    font-weight: bold;
+    text-align: center;
+}
+.linea1primera2{
+    font-family:"IBM+Plex+Sans" ;
+    font-weight: bold;
+    text-align: center;
+    color: darkgray;
+}
+.vermas1{
+    font-family: "Archivo";
+    font-size: 0.7rem;
+    margin-left: 30%;
+    background-color:rgb(192, 74, 74);
+    color: white;
+    text-decoration: none;
+    border: brown;
+}
+.Segundalinea{
+    padding-left: 6%;
+    padding-right: 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.comprar1{
+    text-align: center;
+    font-size: 0.9rem;
+    color: burlywood;
+}
+.comprar{
+    font-family: "Archivo";
+    font-size: 0.7rem;
+    background-color:rgb(192, 74, 74);
+    color: white;
+    text-decoration: none;
+    border: brown;
+}
+.Conocenos{
+    padding-left: 4%;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "Archivo+Black";
+    color: brown;
+}
+.parrafotexto1{
+    margin-left: 4%;
+    font-size: 125%;
+    font-weight: bold;
+    font-family: "Archivo+Black";
+    color: darkgray;
+}
+.teesperamos{
+    padding-left: 20%;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "Archivo+Black";
+    color: brown;
+}
+.textoparrafo{
+    display: flex;
+}
+.libreria{
+    padding-left: 3%;
+}
+.pie{
+    background-color: rgb(176, 145, 105);
+}
+.columnas{
+    display: flex;
+    color: white;
+}
+.espacioc1{
+    padding-top: 0.5em;
+}
+.footer-b1{
+    padding-left: 0.5em;
+    width: 33%;
+    padding-top: 1em;
+}
+.line1f{
+border: solid 1px;
+margin-right: 1em;
+}
+.ubicacion{display: flex;
+}
+.telefono{
+    display: flex;
+}
+.mail{
+    display: flex;
+    margin-top: 1em;
+}
+.iconos{
+    padding-left: 8em;
+    padding-top: 2em;
+}
+.footer-b2{
+    width: 33%;
+    padding-top: 1em;
+}
+.line2f{
+    border: solid 1px;
+    margin-right: 1em;
+}
+.opciones{
+    padding-top: 1.5em;
+}
+.inicio{
+    padding-bottom: 0.4em;
+}
+.acerca{
+    padding-bottom: 0.4em;
+}
+.tarjeta{
+    padding-bottom: 0.4em;
+}
+.ventas{
+    padding-bottom: 0.4em;
+}
+.facturacion{
+    padding-bottom: 0.4em;
+}
+.contactanos{
+    padding-bottom: 0.4em;
+}
+.aviso{
+    padding-bottom: 0.4em;
+}
+.terminos{
+    padding-bottom: 0.4em;
+}
+.footer-b3{
+    width: 33%;
+    padding-top: 1em;
+}
+.boton{
+    background-color:rgb(192, 74, 74);
+    margin-left: -1em;
+    border-color: brown;
+}
+.line3f{
+    border: solid 1px;
+    margin-right: 1em;
+}
+.lineafinal{
+    background-color: rgb(176, 145, 105);
+}
+.leyenda{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    color: white;
+}
+.tituloc1{
+    color: white;
+}
